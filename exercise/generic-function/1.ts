@@ -14,3 +14,13 @@
 import { strict as assert } from "assert";
 
 const numbers: number[] = [1, 2, 3, 4, 5];
+
+
+function Locate<T>(array: T[], element: T): number | undefined {
+    // Your implementation here
+   const index = array.indexOf(element);
+   if(index === -1) return undefined
+   return index;
+}
+  
+console.log(Locate([1,2,3],5))

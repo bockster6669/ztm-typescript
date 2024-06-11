@@ -17,4 +17,20 @@
 // 6. View all items in the queue
 // 7. Assert that only "World" remains in the queue
 
-import { strict as assert } from "assert";
+import { strict as assert } from 'assert';
+
+class Node {
+    value: 
+    
+    constructor(value) {
+
+    }
+}
+class Queue<T> {
+  head: T | null = null;
+  tail: T | null = null;
+
+  push(): T | undefined {
+    this.head
+  }
+}
